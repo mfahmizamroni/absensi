@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Responsive admin dashboard and web application ui kit. ">
+    <meta name="keywords" content="blank, starter">
+
+    <title>Sistem Absensi</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,300i" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="../assets/css/core.min.css" rel="stylesheet">
+    <link href="../assets/css/app.min.css" rel="stylesheet">
+    <link href="../assets/css/style.min.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+    <link rel="icon" href="../assets/img/favicon.png">
+  </head>
+
+  <body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="spinner-dots">
+        <span class="dot1"></span>
+        <span class="dot2"></span>
+        <span class="dot3"></span>
+      </div>
+    </div>
+
+
+    <!-- Sidebar -->
+    <aside class="sidebar sidebar-icons-right sidebar-icons-boxed sidebar-expand-lg">
+      <header class="sidebar-header">
+        <span class="logo">
+          <a href="">ADMINISTRATOR SI ITS</a>
+        </span>
+      </header>
+
+      <nav class="sidebar-navigation">
+        <div class="sidebar-profile">
+            <span class="no-caret"><img class="" src="../assets/img/avatar/1.jpg" alt="..."></span>
+        </div>
+        <ul class="menu">
+          <li class="menu-category">Administrator</li>
+
+          <li class="menu-item active">
+            <a class="menu-link" href="">
+              <span class="icon fa fa-home"></span>
+              <span class="title">Home</span>
+            </a>
+          </li>
+
+          <!-- Begin Master Data -->
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-folder-open"></span>
+              <span class="title">Master Data</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <span class="dot"></span>
+                  <span class="title">Data Dosen</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <span class="dot"></span>
+                  <span class="title">Data Mahasiswa</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <span class="dot"></span>
+                  <span class="title">Data Mata Kuliah</span>
+                </a>
+              </li>
+                            <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <span class="dot"></span>
+                  <span class="title">Jadwal Mata Kuliah</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!-- End Master Data -->
+
+          <!-- Begin Master Data -->
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-tasks"></span>
+              <span class="title">Laporan Absensi</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <span class="dot"></span>
+                  <span class="title">Absensi Dosen</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="#">
+                  <span class="dot"></span>
+                  <span class="title">Absensi Mahasiswa</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!-- End Master Data -->
+
+
+        </ul>
+      </nav>
+
+    </aside>
+    <!-- END Sidebar -->
+
+
+    <!-- Topbar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <span class="topbar-btn sidebar-toggler"><i>&#9776;</i></span>
+      </div>
+
+      <div class="topbar-right">
+        <ul class="topbar-btns">
+
+          <!-- Profile -->
+            <span class="topbar-btn" data-toggle="dropdown"><img class="avatar" src="../assets/img/avatar/1.jpg" alt="..."></span>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="../page/profile.html"><i class="ti-user"></i> Profile</a>
+              <a class="dropdown-item" href="../page-app/mailbox.html">
+                <div class="flexbox">
+                  <i class="ti-email"></i>
+                  <span class="flex-grow">Inbox</span>
+                  <span class="badge badge-pill badge-info">5</span>
+                </div>
+              </a>
+              <a class="dropdown-item" href="#"><i class="ti-settings"></i> Settings</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="../page-extra/user-lock-1.html"><i class="ti-lock"></i> Lock</a>
+              <a class="dropdown-item" href="../page-extra/user-login-3.html"><i class="ti-power-off"></i> Logout</a>
+            </div>
+          </li>
+          <!-- END Profile -->
+
+          <!-- Notifications -->
+          <li class="dropdown d-none d-md-block">
+            <span class="topbar-btn has-new" data-toggle="dropdown"><i class="ti-bell"></i></span>
+            <div class="dropdown-menu dropdown-menu-right">
+
+              <div class="media-list media-list-hover media-list-divided media-list-xs">
+                <a class="media media-new" href="#">
+                  <span class="avatar bg-success"><i class="ti-user"></i></span>
+                  <div class="media-body">
+                    <p>New user registered</p>
+                    <time datetime="2017-07-14 20:00">Just now</time>
+                  </div>
+                </a>
+
+                <a class="media" href="#">
+                  <span class="avatar bg-info"><i class="ti-shopping-cart"></i></span>
+                  <div class="media-body">
+                    <p>New order received</p>
+                    <time datetime="2017-07-14 20:00">2 min ago</time>
+                  </div>
+                </a>
+
+                <a class="media" href="#">
+                  <span class="avatar bg-warning"><i class="ti-face-sad"></i></span>
+                  <div class="media-body">
+                    <p>Refund request from <b>Ashlyn Culotta</b></p>
+                    <time datetime="2017-07-14 20:00">24 min ago</time>
+                  </div>
+                </a>
+
+                <a class="media" href="#">
+                  <span class="avatar bg-primary"><i class="ti-money"></i></span>
+                  <div class="media-body">
+                    <p>New payment has made through PayPal</p>
+                    <time datetime="2017-07-14 20:00">53 min ago</time>
+                  </div>
+                </a>
+              </div>
+
+              <div class="dropdown-footer">
+                <div class="left">
+                  <a href="#">Read all notifications</a>
+                </div>
+
+                <div class="right">
+                  <a href="#" data-provide="tooltip" title="Mark all as read"><i class="fa fa-circle-o"></i></a>
+                  <a href="#" data-provide="tooltip" title="Update"><i class="fa fa-repeat"></i></a>
+                  <a href="#" data-provide="tooltip" title="Settings"><i class="fa fa-gear"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </li>
+          <!-- END Notifications -->
+
+
+
+        </ul>
+
+      </div>
+    </header>
+    <!-- END Topbar -->
+
+
+    <!-- Main container -->
+    <main>
+      <div class="main-content">
+
+
+        <div class="card">
+          <h4 class="card-title">Card title</h4>
+
+          <div class="card-body">
+
+          </div>
+        </div>
+
+
+      </div><!--/.main-content -->
+
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="text-center text-md-left">Copyright © 2017 <a href="">Tim Absensi ITS</a>. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+      <!-- END Footer -->
+
+    </main>
+    <!-- END Main container -->
+
+
+
+    <!-- Global quickview -->
+    <div id="qv-global" class="quickview" data-url="../assets/data/quickview-global.html">
+      <div class="spinner-linear">
+        <div class="line"></div>
+      </div>
+    </div>
+    <!-- END Global quickview -->
+
+
+
+    <!-- Scripts -->
+    <script src="../assets/js/core.min.js"></script>
+    <script src="../assets/js/app.min.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+
+  </body>
+</html>

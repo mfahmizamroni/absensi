@@ -1,0 +1,39 @@
+{
+  "name": "theadmin",
+  "banner_name": "TheAdmin",
+  "description": "TheAdmin - Responsive Bootstrap 4 Admin, Dashboard & WebApp Template",
+  "version": "1.0.0",
+  "private": true,
+  "keywords": [
+    "admin",
+    "dashboard",
+    "webapp",
+    "saas"
+  ],
+  "homepage": "http://thetheme.io/theadmin",
+  "author": "TheThemeio",
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-rename": "0.0.3",
+    "grunt-contrib-uglify": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-dom-munger-updated": "^3.4.0",
+    "grunt-neuter": "^0.6.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-rewrite": "^1.0.1",
+    "grunt-sass": "2.0.0",
+    "grunt-scss-lint": "^0.3.8",
+    "grunt-text-replace": "^0.4.0",
+    "load-grunt-tasks": "^3.5.2",
+    "postcss-flexbugs-fixes": "^2.0.0",
+    "time-grunt": "^1.2.1"
+  },
+  "dependencies": {}
+}

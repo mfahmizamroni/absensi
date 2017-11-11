@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Responsive admin dashboard and web application ui kit. ">
+    <meta name="keywords" content="blank, starter">
+
+    <title>Sistem Absensi</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,300i" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="../assets/css/core.min.css" rel="stylesheet">
+    <link href="../assets/css/app.min.css" rel="stylesheet">
+    <link href="../assets/css/style.min.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+    <link rel="icon" href="../assets/img/favicon.png">
+  </head>
+
+  <body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="spinner-dots">
+        <span class="dot1"></span>
+        <span class="dot2"></span>
+        <span class="dot3"></span>
+      </div>
+    </div>
+
+
+  <!-- Sidebar -->
+  <aside class="sidebar sidebar-icons-right sidebar-icons-boxed sidebar-expand-lg">
+    <header class="sidebar-header">
+      <span class="logo">
+        <h3 style="color: #fff">Sistem Absensi</h3>
+      </span>
+    </header>
+
+    <nav class="sidebar-navigation">
+      <div class="sidebar-profile">
+        <span class="no-caret" ><img class="img-thumbnail" src="../assets/img/logo_si.png" alt="..."></span>
+      </div>
+      <ul class="menu">
+        <li class="menu-category">Administrator</li>
+
+        <li class="menu-item active">
+          <a class="menu-link" href="">
+            <span class="icon fa fa-home"></span>
+            <span class="title">Home</span>
+          </a>
+        </li>
+
+        <!-- Begin Master Data -->
+        <li class="menu-item">
+          <a class="menu-link" href="#">
+            <span class="icon fa fa-folder-open"></span>
+            <span class="title">Master Data</span>
+            <span class="arrow"></span>
+          </a>
+
+          <ul class="menu-submenu">
+            <li class="menu-item">
+              <a class="menu-link" href="../Absensi/vDosen.html">
+                <span class="dot"></span>
+                <span class="title">Data Dosen</span>
+              </a>
+            </li>
+
+            <li class="menu-item">
+              <a class="menu-link" href="../Absensi/vMahasiswa.html">
+                <span class="dot"></span>
+                <span class="title">Data Mahasiswa</span>
+              </a>
+            </li>
+
+            <li class="menu-item">
+              <a class="menu-link" href="../Absensi/vMataKuliah.html">
+                <span class="dot"></span>
+                <span class="title">Data Mata Kuliah</span>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="vJadwalMk">
+                <span class="dot"></span>
+                <span class="title">Jadwal Mata Kuliah</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <!-- End Master Data -->
+
+        <!-- Begin Master Data -->
+        <li class="menu-item">
+          <a class="menu-link" href="#">
+            <span class="icon fa fa-tasks"></span>
+            <span class="title">Laporan Absensi</span>
+            <span class="arrow"></span>
+          </a>
+
+          <ul class="menu-submenu">
+            <li class="menu-item">
+              <a class="menu-link" href="../Absensi/vLdmDosen.html">
+                <span class="dot"></span>
+                <span class="title">Absensi Dosen</span>
+              </a>
+            </li>
+
+            <li class="menu-item">
+              <a class="menu-link" href="../Absensi/vLaporanMahasiswaMk.html">
+                <span class="dot"></span>
+                <span class="title">Absensi Mahasiswa</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <!-- End Master Data -->
+
+
+      </ul>
+    </nav>
+
+  </aside>
+  <!-- END Sidebar -->
+
+
+  <!-- Topbar -->
+  <header class="topbar">
+    <div class="topbar-left">
+      <span class="topbar-btn sidebar-toggler"><i>&#9776;</i></span>
+      <a class="topbar-btn d-none d-md-block" href="#" data-provide="fullscreen tooltip" title="Fullscreen">
+        <i class="material-icons fullscreen-default">fullscreen</i>
+        <i class="material-icons fullscreen-active">fullscreen_exit</i>
+      </a>
+      <div class="topbar-divider"></div>
+      <h3 class="d-none d-md-block">Modul Administrator </h3>
+    </div>
+
+    <div class="topbar-right">
+      <ul class="topbar-btns">
+        <div class="topbar-divider"></div>
+
+        <!-- Profile -->
+        <li class="dropdown">
+          <span class="topbar-btn has-new" data-toggle="dropdown">Admin <img class="avatar" src="../assets/img/avatar/1.jpg" alt="..."></span>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="../page/profile.html"><i class="ti-user"></i> Profile</a>
+            <a class="dropdown-item" href="../page-app/mailbox.html">
+              <div class="flexbox">
+                <i class="ti-email"></i>
+                <span class="flex-grow">Inbox</span>
+                <span class="badge badge-pill badge-info">5</span>
+              </div>
+            </a>
+            <a class="dropdown-item" href="#"><i class="ti-settings"></i> Settings</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../page-extra/user-lock-1.html"><i class="ti-lock"></i> Lock</a>
+            <a class="dropdown-item" href="../page-extra/user-login-3.html"><i class="ti-power-off"></i> Logout</a>
+          </div>
+        </li>
+        <!-- END Profile -->
+
+
+      </ul>
+
+    </div>
+  </header>
+  <!-- END Topbar -->
+
+
+    <!-- Main container -->
+    <main>
+      <div class="main-content">
+        <h5><strong>Master</strong> Data</h5>
+        <div class="row">
+          <div class="col-lg-3">
+          <button class="btn btn-block btn-secondary"><i class="fa fa-user fs-50"></i><br>Data Dosen</button>
+        </div>
+        <div class="col-lg-3">
+          <button class="btn btn-block btn-secondary"><i class="fa fa-users fs-50"></i><br>Data Mahasiswa</button>
+        </div>
+        <div class="col-lg-3">
+          <button class="btn btn-block btn-secondary"><i class="fa fa-file-text-o fs-50"></i><br>Data Mata Kuliah</button>
+        </div>
+        <div class="col-lg-3">
+          <button class="btn btn-block btn-secondary"><i class="fa fa-list-ul fs-50"></i><br>Jadwal Mata Kuliah</button>
+        </div>
+        </div>
+
+        <hr>
+        <h5><strong>Master</strong> Data</h5>
+        <div class="row">
+          <div class="col-lg-3">
+          <button class="btn btn-block btn-secondary"><i class="ti-files fs-50"></i><br>Absensi Dosen</button>
+        </div>
+        <div class="col-lg-3">
+          <button class="btn btn-block btn-secondary"><i class="ti-agenda fs-50"></i><br>Absensi Mahasiswa</button>
+        </div>
+        </div>
+        
+      </div><!--/.main-content -->
+
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="text-center text-md-left">Copyright © 2017 <a href="">Tim Absensi ITS</a>. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+      <!-- END Footer -->
+
+    </main>
+    <!-- END Main container -->
+
+
+
+    <!-- Global quickview -->
+    <div id="qv-global" class="quickview" data-url="../assets/data/quickview-global.html">
+      <div class="spinner-linear">
+        <div class="line"></div>
+      </div>
+    </div>
+    <!-- END Global quickview -->
+
+
+
+    <!-- Scripts -->
+    <script src="../assets/js/core.min.js"></script>
+    <script src="../assets/js/app.min.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+
+  </body>
+</html>
